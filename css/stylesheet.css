@@ -20,94 +20,85 @@ body {
 }
 
 .box	{
-	width: 700px;	
+	width: 980px;	
 	margin-left: auto;
 	margin-right: auto;
 }
 
 header	{
 	background-color: #033048;
-	height: 350px;
 }
 
-nav h1 {
+header h1 {
 	float: left;
-	margin-left: 60px;
-	margin-top: 20px;
+	margin: 20px 100px 20px 20px;
 	font-weight: 800;
 	font-size: 24px;
 	color: white;
 }
 
-header button {
-	margin-top: 165px;
-	margin-left: 100px;
-	border-radius: 5px;
-	width: 130px;
-	height: 30px;
-	background-color: #f9e42e;
-	text-align: center;
-	font-weight: 800;
-	font-size: 14px;
-	color: #033048;
-	border: none;
+nav a {
+	text-decoration: none;
+	color: #f9e42e;
+	font-weight: 600;
+	font-size: 24px;
+}
+
+nav li {
+	float: right;
+	display: inline;
+	background-color: #033048;
+	margin-right: 20px;
+	margin-top: 20px
 }
 
 main {
-	height: 300px;
+	float: left;
 	background-color: #f0efef;
+	color: #606161;
+	padding: 20px;
+}
+
+.main1 {
+	border-bottom: solid 1px #606161;
+	width: 700px;
+}
+
+.main1 h2 {
+	font-size: 40px;
+	font-weight: 600;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+.main1 img {
+	width: 100%;
+	height: auto;
+	padding-bottom: 20px;
+}
+.main1 p {
+	font-weight: lighter;
+	font-size: 24px;
+	padding-bottom: 40px;
+}
+
+.main1 p:first-letter {
+	font-size: 40px;
+	font-weight: bolder;
+}
+
+.main1 a {
+	display: inline;
+	float: right;
+	padding-bottom: 20px;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: 600;
 	color: #606161;
 }
 
-.maincontent	{
-	float: left;
-	width: 370px;
-	height:250px;
-}
-.maincontent h3	{
-	margin-top: 40px;
-	margin-left: 60px;
-	font-size: 20px;
-	font-weight: 600;
-}
-
-.maincontent p	{
-	margin-left: 65px;
-	margin-top: 20px;
-	font-size: 13px;
-	font-weight: 300;
-}
-
-.maincontent ul {
-	width: 200px;
-	margin-top: 30px;
-	margin-left: 115px;
-	line-height: 1.5;
-	font-size: 13px;
-	font-weight: 300;
-}
-
-.testimonial {
-	height: 200px;
-	background: url(../images/testimonial_bg.jpg) no-repeat center top;
-	text-align: center;
-	color: white;
-	font-weight: 
-}
-
-.testimonial_quote {
-	margin: 0px 140px 10px 140px;
-	padding-top: 50px;
-	font-size: 18px;
-	font-weight: 300;
-	font-style: italic;
-}
-
-.testimonial_name {
-	margin-top: 5px;
-	margin-bottom: 30px;
-	font-weight: 600;
-	font-size: 18px;
+.sidebar {
+	width: 240px;
 }
 
 .signup_container {
