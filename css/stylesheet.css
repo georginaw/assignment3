@@ -12,20 +12,15 @@
 
 body {
 	font-family: 'Open Sans', sans-serif;
-	width: 940px;
-	padding-left: 20px;
-	padding-right: 20px;
+	width: 1120px;
 	margin-right: auto;
 	margin-left: auto;
 }
 
-#container	{
-	background-color: white;
-}
 
 header	{
 	background-color: #033048;
-	padding: 20px;
+	padding: 30px 80px;
 }
 
 header h1 {
@@ -52,21 +47,26 @@ nav li {
 main {
 	background-color: #f0efef;
 	color: #606161;
+	padding-right: 80px;
+	padding-left: 80px;
 }
 
-.col1 {
+.maincolumn {
 	float: left;
 	width: 700px;
+	margin-right: 20px;
+	margin-bottom: 40px;
 }
 
 .main1 {
 	border-bottom: solid 1px #606161;
+	padding-bottom: 20px;
 }
 
 .main1 h2 {
 	font-size: 40px;
 	font-weight: 600;
-	padding-top: 40px;
+	padding-top: 50px;
 	padding-bottom: 20px;
 }
 
@@ -75,10 +75,12 @@ main {
 	height: auto;
 	padding-bottom: 20px;
 }
+
 .main1 p {
 	font-weight: lighter;
 	font-size: 24px;
 	padding-bottom: 40px;
+	text-align: justify;
 }
 
 .main1 p:first-letter {
@@ -102,15 +104,33 @@ main {
 .sidebar h2 {
 	font-size: 32px;
 	font-weight: 800;
+	padding-top: 40px;
+	padding-bottom: 20px;
 }
 
-.category_links {
+.category_links li {
+	font-weight: 300;
+	font-size: 24px;
+	padding-left: 5px;
+	padding-top: 5px;
 }
 
-.about	{
+.category_links a {
+	text-decoration: none;
+}
+
+.about p {
+	font-size: 22px;
+	font-weight: 300;
+}
+
+.about a {
+	font-size: 22px;
+	font-weight: 600;
 }
 
 .adunit	{
+	margin-top: 40px;
 }
 
 .category_links a {
@@ -138,6 +158,10 @@ main {
 	border: none;
 }
 
+.button {
+	text-align: center;
+}
+
 footer {
 	height: 150px;
 	background-color: #121212;
@@ -152,7 +176,8 @@ footer h1{
 }
 
 .icon {
-	margin-left: 270px; 
+	margin-left: auto;
+	margin-right: auto; 
 }
 
 .icon li {
