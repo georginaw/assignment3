@@ -176,8 +176,11 @@ footer h1{
 }
 
 .icon {
-	margin-left: auto;
-	margin-right: auto; 
+	text-align: center;
+}
+
+.icon:first-child {
+	margin-right: 20px;
 }
 
 .icon li {
