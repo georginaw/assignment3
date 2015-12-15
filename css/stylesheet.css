@@ -17,7 +17,10 @@ body {
 	margin-left: auto;
 }
 
-
+a:hover {
+	color: red;
+	background-color: yellow;
+}
 header	{
 	background-color: #033048;
 	padding: 30px 80px;
@@ -78,18 +81,23 @@ main {
 
 .main1 p {
 	font-weight: lighter;
-	font-size: 24px;
 	padding-bottom: 40px;
 	text-align: justify;
+}
+
+.main1 a {
+	
 }
 
 .main1 p:first-letter {
 	font-size: 40px;
 	font-weight: bolder;
+	float: left;
 }
 
 .main1 a {
-	display: inline;
+	display: block;
+	text-align: right;
 	padding-bottom: 20px;
 	text-decoration: none;
 	font-size: 24px;
@@ -115,8 +123,8 @@ main {
 	padding-top: 5px;
 }
 
-.category_links a {
-	text-decoration: none;
+.category_links ul {
+	list-style: none;
 }
 
 .about p {
@@ -163,16 +171,18 @@ main {
 }
 
 footer {
-	height: 150px;
+	height: 200px;
 	background-color: #121212;
+	padding-bottom: 20px;
 }
 
 footer h1{
-	padding-top: 20px;
+	padding-top: 30px;
 	color: #f9e42e;
 	font-size: 24px;
 	font-weight: 800;
 	text-align: center;
+	margin-bottom: 20px;
 }
 
 .icon {
@@ -186,7 +196,6 @@ footer h1{
 .icon li {
 	display: inline-block;
 	margin-top: 30px;
-	margin-left: 0px;
 	height: 40px;
 	width: 40px;
 }
@@ -199,7 +208,7 @@ footer h1{
 	font-weight: 600;
 	font-size: 9px;
 	text-align: center;
-	margin-top: 15px;
+	margin-top: 25px;
 	margin-bottom: 5px;
 	color: white;
 }
